@@ -1,5 +1,5 @@
 Name:		x11perf
-Version:	1.5.1
+Version:	1.5.2
 Release:	%mkrel 1
 Summary:	X11 server performance comparison program  
 Group:		Development/X11
