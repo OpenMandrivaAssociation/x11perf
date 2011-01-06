@@ -1,10 +1,10 @@
 Name:		x11perf
-Version:	1.5.2
+Version:	1.5.3
 Release:	%mkrel 1
-Summary:	X11 server performance comparison program  
+Summary:	X11 server performance comparison program
 Group:		Development/X11
-URL: http://xorg.freedesktop.org
-Source:                http://xorg.freedesktop.org/releases/individual/app/%{name}-%{version}.tar.bz2
+URL:		http://xorg.freedesktop.org
+Source:		http://xorg.freedesktop.org/releases/individual/app/%{name}-%{version}.tar.bz2
 License:       MIT
 BuildRoot:     %{_tmppath}/%{name}-root
  
@@ -21,8 +21,7 @@ fast an X server can execute the tests.
 %setup -q -n %{name}-%{version}
 
 %build
-%configure	--x-includes=%{_includedir}\
-		--x-libraries=%{_libdir}
+%configure2_5x
 
 %make
 
