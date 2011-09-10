@@ -1,6 +1,6 @@
 Name:		x11perf
-Version:	1.5.3
-Release:	%mkrel 2
+Version:	1.5.4
+Release:	%mkrel 1
 Summary:	X11 server performance comparison program
 Group:		Development/X11
 URL:		http://xorg.freedesktop.org
