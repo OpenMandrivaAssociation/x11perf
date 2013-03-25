@@ -4,9 +4,8 @@ Release:	%mkrel 1
 Summary:	X11 server performance comparison program
 Group:		Development/X11
 URL:		http://xorg.freedesktop.org
-Source:		http://xorg.freedesktop.org/releases/individual/app/%{name}-%{version}.tar.bz2
+Source0:	http://xorg.freedesktop.org/releases/individual/app/%{name}-%{version}.tar.bz2
 License:       MIT
-BuildRoot:     %{_tmppath}/%{name}-root
  
 BuildRequires: libx11-devel >= 1.0.0
 BuildRequires: libxmu-devel >= 1.0.0
@@ -21,12 +20,12 @@ fast an X server can execute the tests.
 %setup -q -n %{name}-%{version}
 
 %build
+autoreconf -fi
 %configure2_5x
 
 %make
 
 %install
-rm -rf %{buildroot}
 %makeinstall_std
 
 %files
