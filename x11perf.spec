@@ -7,9 +7,9 @@ URL:		http://xorg.freedesktop.org
 Source0:	http://xorg.freedesktop.org/releases/individual/app/%{name}-%{version}.tar.bz2
 License:       MIT
  
-BuildRequires: libx11-devel >= 1.0.0
-BuildRequires: libxmu-devel >= 1.0.0
-BuildRequires: libxft-devel
+BuildRequires: pkgconfig(x11) >= 1.0.0
+BuildRequires: pkgconfig(xmu) >= 1.0.0
+BuildRequires: pkgconfig(xft)
 BuildRequires: x11-util-macros >= 1.0.1
 
 %description
