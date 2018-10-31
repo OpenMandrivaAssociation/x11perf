@@ -1,6 +1,6 @@
 Name:		x11perf
 Version:	1.6.0
-Release:	4
+Release:	5
 Summary:	X11 server performance comparison program
 Group:		Development/X11
 URL:		http://xorg.freedesktop.org
