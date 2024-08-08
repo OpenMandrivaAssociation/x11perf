@@ -29,5 +29,5 @@ autoreconf -fi
 
 %files
 %{_bindir}/*
-%{_libdir}/X11/x11perfcomp
+#{_libdir}/X11/x11perfcomp
 %doc %{_mandir}/man1/*
