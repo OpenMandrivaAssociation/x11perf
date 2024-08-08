@@ -1,10 +1,10 @@
 Name:		x11perf
-Version:	1.6.2
-Release:	2
+Version:	1.7.0
+Release:	1
 Summary:	X11 server performance comparison program
 Group:		Development/X11
-URL:		http://xorg.freedesktop.org
-Source0:	http://xorg.freedesktop.org/releases/individual/app/%{name}-%{version}.tar.xz
+URL:		https://xorg.freedesktop.org
+Source0:	https://xorg.freedesktop.org/releases/individual/app/%{name}-%{version}.tar.xz
 License:	MIT
  
 BuildRequires:	pkgconfig(x11) >= 1.0.0
